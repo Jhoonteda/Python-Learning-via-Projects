@@ -1,0 +1,1 @@
+URL Shortener: Create a URL shortening service that takes a long URL as input and generates a shortened version. The program should also be able to redirect users to the original URL when the shortened URL is accessed.
