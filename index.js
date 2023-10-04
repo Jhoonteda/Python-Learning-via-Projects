@@ -11,7 +11,7 @@ const makeCommit = async (n) => {
   const x = Math.floor(Math.random() * 54);
   const y = Math.floor(Math.random() * 6);
   const DATE = moment()
-    .subtract(1, 'years')
+    .subtract(0, 'years')
     .add(x, 'weeks')
     .add(y, 'days')
     .format();
@@ -29,7 +29,7 @@ const makeCommit = async (n) => {
 };
 
 const createPullRequest = async () => {
-  const token = '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';
+  const token = 'hp_w1VaRVDOTJ3SKl8zXQHa5FSQ6Zvja71aWyQK';
   const owner = 'samisams1';
   const repo = 'Python-Learning-via-Projects';
   const baseBranch = 'main';
